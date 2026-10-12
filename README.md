@@ -73,6 +73,24 @@ npm run lint
 - General references: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle
 - Application properties: https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
 
+## Screenshots
+### ToDos
+<img width="2552" height="1131" alt="image" src="https://github.com/user-attachments/assets/b93042a7-ed32-437d-981f-de9c7373a06d" />
+<img width="2545" height="1137" alt="image" src="https://github.com/user-attachments/assets/52a0ac37-7269-44d4-b39b-8d52acb4bdc2" />
+<img width="2535" height="1142" alt="image" src="https://github.com/user-attachments/assets/3fccf84c-d4d4-4ef0-9756-a61db160037b" />
+<img width="2546" height="1151" alt="image" src="https://github.com/user-attachments/assets/c09f7fcc-be65-40fa-8129-f7d01e97ab7b" />
+<img width="2556" height="1123" alt="image" src="https://github.com/user-attachments/assets/02751e8d-0827-4583-86c7-892e6b1f6fba" />
+
+
+### Assignees
+<img width="2557" height="632" alt="image" src="https://github.com/user-attachments/assets/6b468450-9a4b-4aa8-a98e-ccd4b8619f51" />
+<img width="2550" height="726" alt="image" src="https://github.com/user-attachments/assets/7bb5f0fe-ef1a-4a0a-8c4c-6ebeb838cbee" />
+
+
+
+
+
+
 
 
 
