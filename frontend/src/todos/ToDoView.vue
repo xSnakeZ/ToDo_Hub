@@ -16,7 +16,7 @@ let toDo: Ref<ToDo> = ref({
   description: "",
   finished: false,
   assigneeList: [],
-  assigneeIdList: [],
+  assigneeIdList: [] as number[],
   createdDate: 0,
   dueDate: "",
   finishedDate: 0,
@@ -291,6 +291,8 @@ function getTimeSpent(id: number) {
   let finishedDate = toDo.finishedDate
   let createdDate = toDo.createdDate
   return moment.duration(finishedDate - createdDate, "milliseconds").humanize()
+
+
 }
 
 /**
@@ -532,7 +534,6 @@ onMounted(() => fetchAllAssignees());
                 <input class="form-control me-2" type="search" placeholder="Search ..." aria-label="Search"
                        id="toDoSearchTitle" @input="filterTable('toDo')">
               </form>
-
               <p></p>
               <form class="d-flex" id="24">
                 <input class="form-control me-2" placeholder="Title" disabled>
