@@ -1,0 +1,134 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+$accordion-button-active-bg: #6f42c1;
+$accordion-button-active-color: white;
+$accordion-button-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='black' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/%3E%3C/svg%3E");
+$accordion-button-active-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-dash-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8'/%3E%3C/svg%3E");
+$accordion-button-icon-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-plus-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2'/%3E%3C/svg%3E");
+$accordion-button-active-icon-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-dash-lg' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8'/%3E%3C/svg%3E");
+
+$focus-ring-width:      .25rem;
+$focus-ring-opacity:    .25;
+$focus-ring-color:      rgba(#6f42c1, $focus-ring-opacity);
+$focus-ring-blur:       0;
+$focus-ring-box-shadow: 0 0 $focus-ring-blur $focus-ring-width $focus-ring-color;
+
+$input-focus-border-color: #6f42c1;
+$component-active-color: white;
+$component-active-bg: #6f42c1;
+
+$body-bg-dark: #343a40;
+$body-bg: #e9ecef;
+
+
+$primary:    #6f42c1;
+$danger:     #bb4d4d;
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+$theme-colors: (
+        "primary":    $primary,
+        "secondary":  $secondary,
+        "success":    $success,
+        "info":       $info,
+        "warning":    $warning,
+        "danger":     $danger,
+        "light":      $light,
+        "dark":       $dark
+);
+
+[data-bs-theme=light] {
+  .btn-secondary {
+    background-color: $body-secondary-bg;
+    border-color: $body-secondary-bg;
+    color: #53565a;
+  }
+  .accordion {
+    --bs-accordion-bg: #ffffff;
+  }
+  .table-hover {
+    --bs-table-bg: #ffffff;
+  }
+  .form-check-input {
+    --bs-form-check-bg: #ffffff;
+  }
+
+  .form-control:focus {
+    background-color: #e9d9ff;
+  }
+  .form-control:disabled {
+    background-color: #e9d9ff;
+  }
+
+  .modal {
+    --bs-modal-bg: #ffffff;
+  }
+  .card {
+    --bs-card-bg: #ffffff;
+  }
+}
+[data-bs-theme=dark]{
+  .btn-secondary{
+    background-color: $body-secondary-bg-dark;
+    border-color: $body-secondary-bg-dark;
+    color: #b3b8bc;
+  }
+  .accordion {
+    --bs-accordion-bg: #212529;
+
+  }
+  .table-hover {
+    --bs-table-bg: #212529;
+  }
+  .card {
+    --bs-card-bg: #212529;
+  }
+  .form-check-input {
+    --bs-form-check-bg: #212529;
+  }
+  .form-control:focus {
+    background-color: #505860;
+  }
+  .form-control {
+    background-color: #505860;
+  }
+  .modal {
+    --bs-modal-bg: #212529;
+  }
+  .form-control:disabled {
+    background-color: #343a40;
+  }
+}
+
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/modal";
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/alert";
+@import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/button-group";
+@import "../node_modules/bootstrap/scss/placeholders";
+@import "../node_modules/bootstrap/scss/accordion";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/close";
+@import "../node_modules/bootstrap/scss/dropdown";
+@import "../node_modules/bootstrap/scss/badge";
+
+
+
+
+@import "../node_modules/bootstrap/scss/utilities/api";
